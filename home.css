@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#searchBar {
+  width: 50vw;
+}
+form {
+  margin-right: 10rem;
+}
+#mainContent {
+  width: 98.7vw;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: black;
+  padding: 1rem;
+}
+#mainContent li {
+  min-width: 23.5vw;
+  margin: 15px 2px;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#mainContent li:hover {
+  border: 1px solid yellow;
+}
+#mainContent li button {
+  width: 50%;
+  line-height: 20px;
+  background-color: orange;
+  border: none;
+  border-radius: 10px;
+}
+#mainContent li button:active {
+  background-color: yellowgreen;
+}

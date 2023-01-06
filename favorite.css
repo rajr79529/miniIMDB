@@ -1,0 +1,47 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+#searchBar {
+   width: 50vw;
+}
+form {
+   margin-right: 10rem;
+}
+#FavContent {
+   width: 98.7vw;
+   min-height: calc(100vh - 56px);
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   background-color: black;
+   padding: 1rem;
+}
+#FavContent li {
+   min-width: 23.5vw;
+   margin: 15px 2px;
+   padding: 3px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+}
+#FavContent li:hover {
+   border: 1px solid yellow;
+}
+#FavContent li button {
+   width: 50%;
+   line-height: 20px;
+   background-color: orange;
+   border: none;
+   border-radius: 10px;
+}
+#FavContent li button:active {
+   background-color: yellowgreen;
+}
+.noFavouriteList {
+   margin: 30vh auto;
+   color: white;
+}
